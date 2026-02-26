@@ -9,3 +9,8 @@ pip install -e .
 ```bash
 pip install .
 ```
+
+### Beispiel
+```bash
+pokemon glurak
+```
