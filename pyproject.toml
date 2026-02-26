@@ -1,0 +1,18 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pokemon-cli"
+version = "0.1.0"
+dependencies = [
+    "typer",
+    "rich",
+    "requests>=2.32.5",
+]
+
+[project.scripts]
+pokemon = "pokemon_cli.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/pokemon_cli"]
