@@ -1,7 +1,11 @@
-# zum testen / ändern installieren:
-# pip install -e .
-#
-#
-#
-# zum installieren:
-# pip install .
+## Installation
+
+### Für Entwicklung (Änderungen sofort aktiv)
+```bash
+pip install -e .
+```
+
+### Für normalen Gebrauch
+```bash
+pip install .
+```
